@@ -27,7 +27,7 @@ function App() {
     let arrayLength = dataArray.length;
     if (arrayLength % 2 == 0) {
       median =
-        (dataArray[arrayLength / 2] + dataArray[arrayLength / 2 + 1]) / 2;
+        (dataArray[arrayLength / 2 - 1] + dataArray[arrayLength / 2]) / 2;
     } else {
       median = dataArray[(arrayLength + 1) / 2];
     }
